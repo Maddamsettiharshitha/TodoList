@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maddamsettiharshitha.github.io/TodoList",   // ✅ Add this line
+  "homepage": "https://maddamsettiharshitha.github.io/TodoList",  
 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -22,8 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 
-    "predeploy": "npm run build",               // ✅ Add this line
-    "deploy": "gh-pages -d build"               // ✅ Add this line
+    "predeploy": "npm run build",               
+    "deploy": "gh-pages -d build"
   },
 
   "eslintConfig": {
@@ -47,6 +47,6 @@
   },
 
   "devDependencies": {
-    "gh-pages": "^6.1.1"                         // ✅ You need to install this manually
+    "gh-pages": "^6.1.1"                        
   }
 }
